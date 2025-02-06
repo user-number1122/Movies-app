@@ -7,7 +7,7 @@ const GenreProvider = ({ children }) => {
 
   useEffect(() => {
     const fetchGenres = async () => {
-      const API_KEY = '6726035e3ba7155a1bdeec13f684695c';
+      const API_KEY = process.env.REACT_APP_API_KEY;
       const API_URL = 'https://api.themoviedb.org/3/genre/movie/list';
 
       try {
