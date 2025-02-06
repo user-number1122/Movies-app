@@ -1,0 +1,46 @@
+.cardRating {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 2px solid transparent;
+  font-family: var(--font-family);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  &.rating-0 {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #e9d100;
+    font-weight: 400;
+  }
+  &.rating-low {
+    background-color: #e90000;
+  }
+  &.rating-mid {
+    background-color: #e97e00;
+  }
+  &.rating-high {
+    background-color: #e9d100;
+  }
+  &.rating-excellent {
+    background-color: #66e900;
+  }
+
+  @media (max-width: 576px) {
+    top: 5px;
+    left: 349px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+  }
+}

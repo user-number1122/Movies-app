@@ -1,0 +1,21 @@
+.cardRate {
+  position: absolute;
+  margin-top: 0px;
+  font-size: 16px;
+  padding-top: 12px;
+  width: 239px;
+  height: 46px;
+  top: 231px;
+  left: 203px;
+  gap: 0px;
+  @media (max-width: 576px) {
+    position: absolute;
+    font-size: 16px;
+
+    width: 239px;
+    height: 46px;
+    top: 199px;
+    left: 146px;
+    gap: 0px;
+  }
+}

@@ -1,0 +1,21 @@
+.cardOverview {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--line-clamp, 6);
+  font-family: var(--font-family);
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  max-width: calc(50ch);
+  @media (max-width: 576px) {
+    margin: 3px 10px 0 10px;
+    padding: 0px;
+  }
+}

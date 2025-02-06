@@ -1,0 +1,30 @@
+.cardGenres {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 7px;
+  flex-wrap: wrap;
+  gap: 7px;
+
+  .genreTag {
+    background-color: #fafafa;
+    color: #000000a6;
+    border-radius: 2px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 74px;
+    left: 256px;
+    gap: 0px;
+    margin: 0px;
+    padding: 2px 4px;
+
+    font-family: var(--font-family);
+    font-size: var(--font-size-sm);
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}

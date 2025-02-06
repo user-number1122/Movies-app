@@ -1,0 +1,20 @@
+.cardContent {
+  flex: 1;
+  padding: 13px 20px 0 20px;
+  margin: 0px;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+
+  @media (max-width: 576px) {
+    padding: 8px 0px 0 7px;
+    box-shadow: none;
+  }
+}
+
+.cardMobile {
+  @media (max-width: 576px) {
+    width: 388px !important;
+    height: 245px !important;
+  }
+}

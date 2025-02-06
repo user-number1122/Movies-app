@@ -1,0 +1,13 @@
+.movieList {
+  max-width: 1010px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  @media (max-width: 576px) {
+    max-width: 420px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}

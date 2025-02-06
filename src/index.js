@@ -1,13 +1,19 @@
+//index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import GenreProvider from './context/GenreContext';
+import 'antd/dist/reset.css'; // импорт стилей Ant Design
+//import 'antd/dist/antd.css'; // или 'antd/dist/reset.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <GenreProvider>
+      <App />
+    </GenreProvider>
   </React.StrictMode>
 );
 
